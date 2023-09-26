@@ -41,7 +41,6 @@ FROM superstore
 --
 #SQL query that will show a statistic about the price for items in the category of "Kitchen Supplies"
 SELECT SUM(stock_quantity),AVG(price),min(price), MAX(price)
---
 FROM superstore
 WHERE category='Kitchen Supplies'
 
